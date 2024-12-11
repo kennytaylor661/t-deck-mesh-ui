@@ -1,12 +1,10 @@
-# Meshtastic Firmware
-
-Custom T-Deck fancy UI firmware compatible with Meshtastic network
+# Custom T-Deck fancy UI firmware compatible with Meshtastic network
 
 ## Overview
 
 This repository contiains a fork of the Meshtastic 2.5.16 firmware with modifications targeted to the T-Deck fancy UI.  It is redistributed under the GPL v3 license.
 
-Building instructions:
+## Building instructions:
 
     git clone https://github.com/kennytaylor661/t-deck-mesh-ui
     git switch tft-gui-work
@@ -15,6 +13,3 @@ Building instructions:
 
 This can be quickly built online for free with gitpod.io
 
-## Stats
-
-##![Alt](https://repobeats.axiom.co/api/embed/a92f097d9197ae853e780ec53d7d126e545629ab.svg "Repobeats analytics image")
