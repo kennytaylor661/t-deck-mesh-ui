@@ -6,9 +6,13 @@ This repository contiains a fork of the Meshtastic 2.5.16 firmware with modifica
 
 ## Building instructions:
 
+Fix /lib/device-ui/source/ViewController.cpp:
+    Change line 493 to:  bytes[232]}},
+
     git clone https://github.com/kennytaylor661/t-deck-mesh-ui
     git switch tft-gui-work
     git submodule update --init
     pio run -e t-deck
 
 This can be quickly built online for free with gitpod.io
+
