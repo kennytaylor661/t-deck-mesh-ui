@@ -12,7 +12,7 @@ Fix /lib/device-ui/source/ViewController.cpp:
     git clone https://github.com/kennytaylor661/t-deck-mesh-ui
     git switch tft-gui-work
     git submodule update --init
-    pio run -e t-deck
+    pio run -e t-deck-tft
 
 This can be quickly built online for free with gitpod.io
 
